@@ -31,6 +31,7 @@ python train_evaluation_tgb.py --dataset tgbl-wiki --num_neighbor 50
 - Windows 10
 - Python 3.12.4
 - PyTorch 2.3.1+cu121
+- tgb
 ### Our hardware
 - CPU: Intel Core i7-14700KF 
 - RAM: 64 GB
