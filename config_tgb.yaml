@@ -1,0 +1,38 @@
+# tgbl-wiki tgbl-review tgbl-coin tgbl-comment tgbl-flight
+default:
+  num_runs: 5 
+  big_hood: 1 # method
+  num_latest: 10
+  d_model: 64 # model
+  nhead: 4
+  num_layers: 3
+  dim_feedforward: 64
+  dropout: 0.1
+  num_epochs: 5 # train
+  learning_rate: 0.0001
+tgbl-wiki:
+  num_neighbor: 15
+  num_epochs: 50
+  num_segment_train: 50
+  num_segment_val: 1
+  num_segment_test: 1
+tgbl-review:
+  num_neighbor: 10
+  num_segment_train: 50
+  num_segment_val: 10
+  num_segment_test: 10
+tgbl-coin:
+  num_neighbor: 40
+  num_segment_train: 50
+  num_segment_val: 20
+  num_segment_test: 20
+tgbl-comment:
+  num_neighbor: 10
+  num_segment_train: 20
+  num_segment_val: 10
+  num_segment_test: 10
+tgbl-flight:
+  num_neighbor: 50
+  num_segment_train: 50
+  num_segment_val: 20
+  num_segment_test: 20
