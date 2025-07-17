@@ -14,7 +14,7 @@ Supports [TGB datasets](https://tgb.complexdatalab.com/docs/leader_linkprop/):
   
 Datasets are **automatically downloaded** when running the code with internet access.
 ### Training & Evaluation
-Basic execution use hyperparameters(reproduce table 1) in `config_tgb.yaml`:
+Basic execution use hyperparameters (to reproduce table 1) in `config_tgb.yaml`:
 ```
 python train_evaluation_tgb.py --dataset tgbl-wiki
 ```
